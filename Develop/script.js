@@ -23,6 +23,7 @@ function writePassword() {
   }
 }
 
+// Generate Password Function
 function generatePassword() {
   let password = "";
   const charSet = Object.values(charVar).join('');
@@ -35,7 +36,7 @@ function generatePassword() {
   return password;
 }
 
-
+// Password Qualifications
 function passwordQualifers() {
   charLength = parseInt(prompt("How many Characters would you like your password to be? (Please select a number between 8 and 128."));
 
